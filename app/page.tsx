@@ -241,7 +241,7 @@ export default function Home() {
         <div>Sandiya // {new Date().getFullYear()}</div>
         <div className="flex gap-12 font-mono">
           <a href="https://www.instagram.com/sandydoesarts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-pink-400 transition-colors tracking-[0.6em] cursor-none">Instagram</a>
-          <a href="mailto:" className="hover:text-purple-400 transition-colors tracking-[0.6em] cursor-none">Email</a>
+          <a href="mailto:sandydoesartshere@gmail.com" className="hover:text-purple-400 transition-colors tracking-[0.6em] cursor-none">Email</a>
         </div>
       </footer>
     </main>
