@@ -106,7 +106,7 @@ export default function Gallery() {
 
           {/* COMMISSIONS */}
           <motion.section
-            custom={1} variants={fadeIn} initial="initial" animate="animate"
+            custom={1} variants={fadeIn as any} initial="initial" animate="animate"
             className="bg-[#0c0c0c] rounded-[2.5rem] border border-white/5 hover:border-pink-500/30 transition-all duration-500 overflow-hidden group"
           >
             <div className="p-10 border-b border-white/5 flex items-center justify-between">
