@@ -38,7 +38,7 @@ export default function Gallery() {
   const commissions = artworks.filter((a) => a.category === "commission");
   const originals = artworks.filter((a) => a.category === "original");
 
-  export const fadeIn: any = {
+  const fadeIn: any = {
     initial: { opacity: 0, y: 24 },
     animate: (i: number) => ({
       opacity: 1,
