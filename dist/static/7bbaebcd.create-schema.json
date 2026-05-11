@@ -1,0 +1,103 @@
+[
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Title of Piece"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Original Art",
+              "value": "original"
+            },
+            {
+              "title": "Commissions",
+              "value": "commission"
+            },
+            {
+              "title": "Crochet Lab",
+              "value": "crochet"
+            }
+          ]
+        },
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "Upload Image"
+      },
+      {
+        "initialValue": false,
+        "name": "isFeatured",
+        "type": "boolean",
+        "title": "Feature on Homepage?"
+      }
+    ],
+    "name": "artwork",
+    "type": "document",
+    "title": "Gallery Art"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Piece Title"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "Sketching",
+              "value": "Sketching"
+            },
+            {
+              "title": "Inking",
+              "value": "Inking"
+            },
+            {
+              "title": "Coloring",
+              "value": "Coloring"
+            },
+            {
+              "title": "Finalizing",
+              "value": "Finalizing"
+            },
+            {
+              "title": "Done",
+              "value": "Done"
+            }
+          ],
+          "layout": "radio"
+        },
+        "name": "stage",
+        "type": "string",
+        "title": "Current Stage"
+      },
+      {
+        "name": "startedAt",
+        "type": "date",
+        "title": "Date Started"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "WIP Image (will be blurred)"
+      }
+    ],
+    "name": "wip",
+    "type": "document",
+    "title": "Work in Progress"
+  }
+]

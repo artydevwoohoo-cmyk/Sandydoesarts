@@ -70,3 +70,13 @@ body {
 a, button, [role="button"], input, select, textarea, [data-cursor="big"] {
   cursor: none !important;
 }
+/* Prevent dragging and selecting any image on the site */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
