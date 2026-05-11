@@ -117,7 +117,7 @@ export default function Home() {
 
         {/* 0. DYNAMIC FEATURED ART BOX */}
         <motion.div 
-          custom={0} variants={fadeIn} initial="initial" animate="animate"
+          custom={0} variants={fadeIn as any} initial="initial" animate="animate"
           data-cursor="big"
           className="md:col-span-12 md:row-span-4 frosted-glass rounded-[3.5rem] relative overflow-hidden group mb-6"
         >
@@ -148,7 +148,7 @@ export default function Home() {
         
         {/* 1. COMMISSIONS */}
         <motion.div 
-          custom={1} variants={fadeIn} initial="initial" animate="animate"
+          custom={1} variants={fadeIn as any} initial="initial" animate="animate"
           className="md:col-span-8 md:row-span-2 frosted-glass rounded-[3rem] relative overflow-hidden shadow-[0_0_80px_-20px_rgba(236,72,153,0.1)] group"
         >
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-pink-500/[0.03] to-transparent bg-[length:100%_4px] animate-scanline pointer-events-none" />
@@ -170,7 +170,7 @@ export default function Home() {
 
         {/* 2. WORK IN PROGRESS */}
         <motion.div
-          custom={2} variants={fadeIn} initial="initial" animate="animate"
+          custom={2} variants={fadeIn as any} initial="initial" animate="animate"
           className="md:col-span-4 md:row-span-3 frosted-glass rounded-[3rem] p-10 flex flex-col justify-between hover:border-yellow-500/20 transition-all group relative overflow-hidden"
         >
           {/* Blurred WIP image background */}
