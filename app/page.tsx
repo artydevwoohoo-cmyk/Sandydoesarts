@@ -224,7 +224,7 @@ export default function Home() {
 
         {/* 3. ORIGINAL WORKS */}
         <motion.div 
-          custom={3} variants={fadeIn} initial="initial" animate="animate"
+          custom={3} variants={fadeIn as any} initial="initial" animate="animate"
           className="md:col-span-8 md:row-span-1 frosted-glass rounded-[2.5rem] px-10 flex items-center justify-between hover:border-pink-500/20 transition-all group"
         >
           <div>
